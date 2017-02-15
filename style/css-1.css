@@ -1,0 +1,31 @@
+/* CSS Document */
+/*  
+	*@Description: 云南大学中文二级页面
+	*@Author:wp.huang
+	*@Update:2012-12-27
+*/
+
+.contain1{width:980px;}
+.contain1 .left{float:left;_display:inline;width:245px;margin-right:10px;border:1px solid #ccc;}
+.contain1 .right{float:left;width:720px;border:1px solid #ccc;}
+/*newsList*/
+.contain1 dt{height:32px;line-height:32px;background:url(images/bg_repeat.gif) 0 -104px repeat-x;z-index:1000;}
+.contain1 dt b{display:inline-block;float:left;width:20px;height:20px;margin-top:6px;margin-right:4px;background:url(images/newslist_bg.png) no-repeat;overflow:hidden;zoom:1;}
+.contain1 .left dd ul li{width:245px;height:30px;line-height:30px;vertical-align:bottom;border-bottom:1px solid #c5c5c5;font:bold 14px/28px "微软雅黑";overflow:hidden;zoom:1;}
+.contain1 .left dd ul li.active{background:#7995ca;}
+.contain1 .left dd ul li a{display:inline-block;padding-left:40px;width:205px;height:30px;}
+.contain1 .left dd ul li.active{border-bottom:1px solid #e2e9f0;}
+.contain1 .left dd ul li.active a,.contain1 .left dd ul li a:hover{text-decoration:none;color:#002955;background:url(images/bg_repeat.gif) 0 -136px repeat-x;}
+.contain1 dt h2{margin-left:20px;font:bold 16px/32px "微软雅黑";color:#fff;overflow:hidden;zoom:1;}
+.contain1 .right dd ul{margin:10px 5px 15px 20px;}
+.contain1 .list_sort{padding-left:10px;margin:10px 5px 15px 20px;background:#f0eded;}
+.contain1 .right dd ul li{width:670px;padding-left:10px;height:25px;line-height:25px;border-bottom:1px dashed #c5c5c5;vertical-align:bottom;background:url(images/bg_repeat.gif) 0 -72px no-repeat;overflow:hidden;zoom:1;}
+.contain1 .right dl dd ul li a{display:inline-block;width:400px;overflow:hidden;}
+.contain1  dl dd ul li .time{float:right;}
+
+/*subnews*/
+.contain1 .right h1{margin-top:20px;text-align:center;font:bold 16px/32px "微软雅黑";color:#000;overflow:hidden;zoom:1;}
+.contain1 .right h5{margin:6px 15px 20px 15px;text-align:right;font:12px/24px "宋体";color:#000;border-bottom:1px solid #ccc;overflow:hidden;zoom:1;}
+.contain1 .right .pbegin {margin:3px 15px 10px 15px; padding:0 10px 0 10px; font:normal 16px/32px "宋体";color:#000; } 
+.contain1 .right p {margin:3px 15px 10px 15px; padding:0 10px 0 10px; text-indent:29px; font:normal 16px/32px "宋体";color:#000; } 
+#demo{height:100px;overflow:hidden;zoom:1;}

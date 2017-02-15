@@ -1,0 +1,80 @@
+/* CSS Document */
+/*  
+	*@Description: 云南大学中文主页
+	*@Author:wp.huang
+	*@Update:2012-11-06
+*/
+body{background:url(images/body_bg.jpg) left top repeat-x;}
+.main{width:980px;margin:0 auto;}
+.header{position:relative;height:118px;background:url(images/header_bg.jpg) left top no-repeat;}
+.header .logo{position:absolute;left:0;top:0;display:inline-block;width:230px;height:118px;text-indent:-9999px;}
+.header .contact{position:absolute;right:0;top:85px;color:#fff;}
+.header .contact a{color:#fff;}
+.header .contact em{margin:0 3px;font-style:normal;}
+
+/*导航栏*/
+.nav{position:relative;height:35px;background:url(images/bg_repeat.gif) repeat-x;z-index:10000}
+.nav .navLeft{position:absolute;left:0;top:0;width:8px;height:35px;overflow:hidden;background:url(images/icon.gif) 0 0 no-repeat;}
+.nav .navRight{position:absolute;right:0;top:0;width:8px;height:35px;overflow:hidden;background:url(images/icon.gif) -8px 0 no-repeat;}
+.nav .search{position:absolute;right:10px;top:7px;width:185px;height:21px;}
+.nav .search .searchbg{float:left;width:156px;height:21px;background:url(images/input_bg.gif) 0 0 no-repeat;}
+.nav .search .searchbg input{width:150px;padding:0 3px;height:21px;line-height:18px;line-height:21px\0;font-size:12px;border:0 none;background:none;color:#c5c5c5;}
+.nav .search .searchSub{float:left;width:15px;height:16px;margin-left:5px;margin-top:3px;border:0 none;background:url(images/icon.gif) 1px -38px no-repeat;cursor:pointer;overflow:hidden;}
+.mainNav{margin-left:10px;}
+.mainNav li{position:relative;float:left;_display:inline;padding:0 6px;height:35px;line-height:35px;height:28px\0;padding-top:7px\0;text-align:center;background:url(images/bg_repeat.gif) right -35px no-repeat;}
+.mainNav li a,.mainNav li a:visited{margin-top:-2px;margin-right:3px;font:14px "微软雅黑";padding:0 7px;color:#fff;display:inline-block;height:26px;line-height:26px;_margin-top:4px;display:inline-block;}
+.mainNav li a:hover,.mainNav li.active a{color:#fff;text-decoration:none;background:#01274d;}
+.mainNav li dl{position:absolute;display:none;left:0;top:35px;padding:10px;background:#01274d;filter:alpha(opacity=80);opacity:0.8;z-index:9999999;}
+.mainNav li dl dd{width:140px;height:25px;line-height:25px;text-align:left;background:url(images/dot_bg.gif) left bottom repeat-x;white-space:nowrap;}
+.mainNav li dl dd a{font-size:12px;}
+.mainNav li.active dl dd a{font-size:12px;background:none;color:#fff;}
+.mainNav li dl dd a:hover{font-size:12px;background:none;color:#ffff00;}
+
+.mainNav li.active dl{display:block;}
+
+/*banner*/
+.banner{width:980px;height:260px;}
+.focus{position:relative;width:980px; height:260px; margin:0 auto;overflow:hidden;}
+.focus .imgbox li{position:absolute;z-index:0;}
+.focus .imgbox li img{width:980px; height:260px; display:block;}
+.focus .numbox{position:absolute;height:10px;width:980px;z-index:10;}
+.focus .numbox ul{position:absolute;top:235px;right:40px;}
+.focus .numbox li{float:left; width:8px; height:8px; margin-left:10px;background:#decb00;}
+.focus .numbox li.pptOn{border:none;background:#806401;box-shadow:0 0 1px 1px #fff;display:block;}
+
+
+/*资讯*/
+.contain .left{float:left;_display:inline;width:485px;margin-right:10px;}
+.contain .right{float:left;width:485px;}
+.contain dl dt{height:32px;line-height:32px;background:url(images/title_bg.gif) left bottom no-repeat;}
+.contain dl dt h2{font:bold 16px/32px "微软雅黑";color:#002e5f;overflow:hidden;zoom:1;}
+.contain dl dt h2 b{display:inline-block;float:left;width:16px;height:16px;margin-top:8px;margin-right:5px;background:url(images/icon.gif) 0 -55px no-repeat;overflow:hidden;zoom:1;}
+.contain  dl dt .more{float:right;margin-top:2px;}
+.contain dl dd ul li{width:475px;padding-left:10px;height:25px;line-height:25px;border-bottom:1px dashed #c5c5c5;vertical-align:bottom;background:url(images/bg_repeat.gif) 0 -72px no-repeat;overflow:hidden;zoom:1;}
+.contain dl dd ul li a{display:inline-block;width:400px;overflow:hidden;}
+.contain dl dd ul li .time{float:right;}
+.contain dl dd .smalllink{position:relative;width:485px;height:30px;margin-top:5px;text-align:center;}
+.contain dl dd .smalllink dl dd{position:relative;float:left;width:95px;height:30px;margin-top:6px;text-align:center;}
+.contain dl dd .smalllink dl dd img{display:inline-block;float:left;width:20px;height:20px;margin-top:3px;margin-right:5px;overflow:hidden;zoom:1;}
+.contain dl dd .smalllink dl dd a{position:relative;float:left;padding-left:-8px;font-size:14px;background:none;display:inline-block;}
+.contain dl dd .smalllink dl dd a:hover{text-decoration:none;background:none;}
+
+
+.contain dl dt .tab_list {height:32px;line-height:32px;border:1px solid #ddd;border-bottom:none;}
+.tab_list li{position:relative;float:left;width:95px;height:28px;line-height:28px;text-align:center;border-right:1px solid #ddd;pointer;color:#000;background:#f3f3f3;}
+.tab_list li.active{color:#000;background:#fff;}
+.contain dl dd .tab_cont{height:116px;margin-top:10px;}
+.contain dl dd #tabCont1,#tabCont2{display:none;}
+
+.contain dl dd .pic{float:left;display:inline-block;width:114px;height:86px;border:2px solid #ccc;margin-right:10px;_margin-right:5px;}
+.contain dl dd .cont{float:left;width:357px;}
+.contain dl dd .cont h2{font-size:12px;}
+.contain dl dd .cont h2.title a{font:bold 12px;}
+.contain dl dd .cont .detail p{font:normal 12px;line-height:22px;text-indent:30px} 
+#demo{height:100px;overflow:hidden;zoom:1;}
+
+
+/*页脚*/
+.footer{padding:10px 0;border-top:3px solid #022d6d;text-align:center;color:#666;}
+.footer a{color:#666;}
+.footer img{vertical-align:middle;}
